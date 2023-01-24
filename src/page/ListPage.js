@@ -6,8 +6,12 @@ const ListPage = () => {
   return (
     <div className=''>
         <Basic>
-        <h1 className='text-2xl px-4'>People</h1>
-        <hr />
+          <div>
+          <h1 className='text-2xl px-4'>People</h1>
+          <hr />
+          </div>
+        
+      
         <ListGrid />
         </Basic>
         

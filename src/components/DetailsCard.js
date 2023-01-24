@@ -4,7 +4,7 @@ const DetailsCard = ({
   details: { name, image, email, address, collegues },
 }) => {
   return (
-    <div className="flex  flex-col md:flex-row p-8 gap-4 ">
+    <div className="flex  flex-col md:flex-row md:p-8 gap-4 p-2 ">
         
       <div>
         <img src={image ? image : `/avatar.png`} alt="" />
