@@ -5,6 +5,8 @@ import App from './App'
 import reportWebVitals from './reportWebVitals'
 import ReduxProvider from './redux/store'
 import Router from './routers'
+import 'react-toastify/dist/ReactToastify.css';
+
 
 
 

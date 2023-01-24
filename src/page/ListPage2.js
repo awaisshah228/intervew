@@ -9,11 +9,11 @@ import { Oval } from "react-loader-spinner";
 const ListPage2 = () => {
   return (
     <div className="flex flex-row">
-      <div className="md:w-1/3 w-1/2">
+      <div className="w-1/3 ">
       <ListGrid2 />
     
       </div>
-      <div className="p-4">
+      <div className="p-4 w-2/3">
       <Routes>
         {/* <Route path="/people" element={ListGr/>id} /> */}
         <Route
