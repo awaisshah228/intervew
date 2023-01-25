@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+//item in list grid for ch2
+
 const ListCard2 = ({ name = "jhon", email = "jhon@gmail.com", id }) => {
   return (
     <Link to={`/ch2/people/${id}`}>
@@ -9,13 +11,8 @@ const ListCard2 = ({ name = "jhon", email = "jhon@gmail.com", id }) => {
         <div className="text-slate-400	 text-sm ">
           <div href={`mailto:${email}`}>{email}</div>
         </div>
-
-        {/* ListCard */}
-        {/* <Link to='/'></Link> */}
       </div>
     </Link>
-
-    // <Link to=}></Link>
   );
 };
 
